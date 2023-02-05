@@ -4,9 +4,9 @@
 /*  OS		  	  : OSDSYS													 */
 /*  Language      : GNU C                                                    */
 /*                                                                           */
-/*  File Contents : MAIN MENU FOR STARING NEW GAME LOADING AND SHUT DOWN     */
+/*  File Contents : GAME STATE EXT VARIABLES COMING FROM MAIN AND MANAGER    */
 /*  File Attribute: EXTERNAL                                                 */
-/*  File Name     : menuState.ext                                            */
+/*  File Name     : gameState.ext                                            */
 /*                                                                           */
 /*****************************************************************************/
 

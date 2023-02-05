@@ -1,0 +1,50 @@
+/*****************************************************************************/
+/*  Author        : Дракончик												 */
+/*  Machine       : Sony PlayStation 2										 */
+/*  OS		  	  : OSDSYS													 */
+/*  Language      : GNU C                                                    */
+/*                                                                           */
+/*  File Contents : GAME STATE MUSIC AUDIO AND VARIABLE DEFINED VALUES       */
+/*  File Attribute: DEFINED	                                              	 */
+/*  File Name     : gameState.def                                            */
+/*                                                                           */
+/*****************************************************************************/
+
+#define TILEWIDTH 32
+#define TILEHEIGHT 32
+#define GRIDWIDTH 6
+#define GRIDHEIGHT 12
+
+#define GRIDOFFSET 120
+#define GRIDOFFSET 60
+
+#define BACKGROUND1 "host:Graphics/Background/BG1.png"
+#define BACKGROUND2 "host:Graphics/Background/BG2.png"
+#define BACKGROUND3 "host:Graphics/Background/BG3.png"
+#define BACKGROUND4 "host:Graphics/Background/BG4.png"
+
+#define FOREGROUND1 "host:Graphics/Background/FG1.png"
+#define FOREGROUND2 "host:Graphics/Background/FG2.png"
+#define FOREGROUND3 "host:Graphics/Background/FG3.png"
+#define FOREGROUND4 "host:Graphics/Background/FG4.png"
+
+#define PIECESET1 "host:Graphics/Images/PieceSet1.png"
+#define PIECESET2 "host:Graphics/Images/PieceSet2.png"
+#define PIECESET3 "host:Graphics/Images/PieceSet3.png"
+#define PIECESET4 "host:Graphics/Images/PieceSet4.png"
+
+#define PIECESETANIMATED "host:Graphics/Images/AnimatedSet.png"
+
+#define Explosion "host:Graphics/Images/Explosion.png"
+
+#define BGMusic1 "host:Audio/BGM/BGM1.wav"
+#define BGMusic2 "host:Audio/BGM/BGM2.wav"
+#define BGMusic3 "host:Audio/BGM/BGM3.wav"
+#define BGMusic4 "host:Audio/BGM/BGM4.wav"
+
+#define SF1 "host:Audio/SE/SF1.adp"
+#define SF2 "host:Audio/SE/SF1.adp"
+#define SF3 "host:Audio/SE/SF1.adp"
+#define SF4 "host:Audio/SE/SF1.adp"
+
+#define STEP 60;

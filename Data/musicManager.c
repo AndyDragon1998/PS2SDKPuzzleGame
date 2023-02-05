@@ -1,7 +1,7 @@
 /*****************************************************************************/
-/*  Author        : Drakonchik(aka Andy)                                     */
-/*  Machine       : Sony PlayStation 2						                 */
-/*  OS			  : OSDSYS									                 */
+/*  Author        : Дракончик												 */
+/*  Machine       : Sony PlayStation 2										 */
+/*  OS		  	  : OSDSYS													 */
 /*  Language      : GNU C                                                    */
 /*                                                                           */
 /*  File Contents : INGAME MUSIC MANAGER AND PLAYER						     */

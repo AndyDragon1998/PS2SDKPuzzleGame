@@ -1,7 +1,7 @@
 /*****************************************************************************/
-/*  Author        : Дракончик							*/
-/*  Machine       : Sony PlayStation 2					*/
-/*  OS		   : OSDSYS							*/
+/*  Author        : Дракончик												 */
+/*  Machine       : Sony PlayStation 2										 */
+/*  OS		  	  : OSDSYS													 */
 /*  Language      : GNU C                                                    */
 /*                                                                           */
 /*  File Contents : MAIN MENU FOR STARING NEW GAME LOADING AND SHUT DOWN     */
