@@ -1,7 +1,7 @@
 /*****************************************************************************/
-/*  Author        : Дракончик												 */
-/*  Machine       : Sony PlayStation 2										 */
-/*  OS		  	  : OSDSYS													 */
+/*  Author        : Дракончик							*/
+/*  Machine       : Sony PlayStation 2					*/
+/*  OS		  : OSDSYS							*/
 /*  Language      : GNU C                                                    */
 /*                                                                           */
 /*  File Contents : GAME STATE FOR HANDLING ALL INGAME STATES LIKE BATTLE    */
@@ -36,6 +36,9 @@ Crystal CrystalGrid[GRIDWIDTH][GRIDHEIGHT];
 
 int GlobalClock;
 int Step;
+
+int PieceXbottomPos;
+int PieceYbottomPos;
 
 bool GameOver;
 bool nextPiece;
@@ -105,20 +108,51 @@ void GameEnd(GSGLOBAL* gsGlobal)
 void GeneratePiece()
 {
 	int x = 0;
+	
 	for(int i = 0; i < 3; i++)
 	{
 		x = rand();
 		x = x % 6;
+		
 		if(CrystalGrid[3][i].type <=5)
 		{
 			GameOver = true;
 		}
+		
 		CrystalGrid[3][i].type = x;
 		CrystalGrid[3][i].isAlive = true;
 		CrystalGrid[3][i].isControlled = true;
+		PieceXbottomPos = 3;
+		PieceYbottomPos = 3;
 	}
 	
 	nextPiece = false;
+}
+
+void MovePiece(int direction)
+{
+	for(int i = 0; i < 3; i++)
+	{
+		switch(direction)
+		{
+			case 0: // Bottom
+			
+			break;
+			
+			case 1: // Left
+			
+			break;
+			
+			case 2: // Right
+			
+			break;
+		}
+	}
+}
+
+void ShuflePiece()
+{
+
 }
 
 void ScanGrid()
