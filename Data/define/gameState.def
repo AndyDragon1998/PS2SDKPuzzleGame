@@ -15,8 +15,8 @@
 #define GRIDWIDTH 6
 #define GRIDHEIGHT 12
 
-#define GRIDOFFSET 120
-#define GRIDOFFSET 60
+#define GRIDOFFSETX 120
+#define GRIDOFFSETY 60
 
 #define BACKGROUND1 "host:Graphics/Background/BG1.png"
 #define BACKGROUND2 "host:Graphics/Background/BG2.png"

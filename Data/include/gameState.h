@@ -2,13 +2,12 @@
 #define GAME_STATE
 
 #include "stateManager.h"
-#include <boolean.h>
+#include <stdbool.h>
 
 typedef struct
 {
-	int type;
+	int type; // 0 - 6
 	bool isAlive;
-	bool isControlled;
 }Crystal;
 
 void GameStart(GSGLOBAL* gsGlobal);
@@ -18,7 +17,7 @@ void GameEnd(GSGLOBAL* gsGlobal);
 void GeneratePiece();
 void ScanGrid();
 void MovePiece(int direction); // 0 bottom 1 left 2 right
-void ShuflePiece();
+void ShuflePiece(int direction);
 
 extern StateManager GameState;
 
