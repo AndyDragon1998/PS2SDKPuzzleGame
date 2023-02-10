@@ -1,4 +1,4 @@
-EE_BIN = SNOPuzzleGame.elf
+EE_BIN = PS2SDKPuzzleGame.elf
 EE_BIN_COMPRESSED = compressed_$(EE_BIN)
 
 EE_OBJS = main.o \
