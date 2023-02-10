@@ -16,6 +16,7 @@ void GameEnd(GSGLOBAL* gsGlobal);
 
 void GeneratePiece();
 void ScanGrid();
+void ClearGrid();
 void MovePiece(int direction); // 0 bottom 1 left 2 right
 void ShuflePiece(int direction);
 

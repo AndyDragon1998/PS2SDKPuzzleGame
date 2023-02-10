@@ -12,8 +12,8 @@
 
 #define TILEWIDTH 32
 #define TILEHEIGHT 32
-#define GRIDWIDTH 6
-#define GRIDHEIGHT 12
+#define GRIDWIDTH 8
+#define GRIDHEIGHT 14
 
 #define GRIDOFFSETX 120
 #define GRIDOFFSETY 60

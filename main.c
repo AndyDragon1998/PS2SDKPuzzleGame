@@ -100,7 +100,7 @@ int main()
 
 	gsKit_clear(gsGlobal, Black);
 
-	StateMachineStart(&GameMachineState, &MenuState, gsGlobal);
+	StateMachineStart(&GameMachineState, &GameState, gsGlobal);
 	
 	while(1)
 	{		
@@ -109,7 +109,7 @@ int main()
 		
 		StateMachineUpdate(&GameMachineState, gsGlobal);
 		
-		StateMachineDraw(&GameMachineState, gsGlobal, &TexCol);
+		StateMachineDraw(&GameMachineState, gsGlobal, TexCol);
 		
 		gsKit_queue_exec(gsGlobal);
 		
